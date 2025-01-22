@@ -5,24 +5,6 @@
 
     font-family: 'Work Sans', sans-serif;
 }
-html, body{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-main {
-    flex: 1; 
-}
-footer {
-    margin-top: auto;
-    flex-shrink: 0;
-}
 
 nav{
     display: flex;
@@ -41,6 +23,7 @@ li,a{
     list-style: none;
     text-decoration: none;
     cursor: pointer;
+    margin-left: 50px;
 }
 .icon-1{
     color: orange;
@@ -60,7 +43,6 @@ li :hover{
 }
 ul,li{
     display: flex;
-   margin-left: 50px;
 }
 .btn{
     width: 120px;
@@ -292,7 +274,71 @@ main{
     color: white;
     font-weight: 700;
     font-size: 20px;
-    padding: 10px;
     border: none;
     border-radius: 10px;
+    margin-bottom: 60px;
+}
+.footer-background{
+    background-color: skyblue;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 110px;
+    margin-left: 70px;
+}
+.footer-left{
+    margin-bottom: 200px;
+}
+
+.left-part{
+      display: flex;
+      margin-top: 80px;
+      gap: 8px;
+      font-weight: 700;
+      font-size: 20px;
+      color: white;
+      margin-bottom: 40px;
+}
+.footer-pera{
+   color: white;
+   text-align: left;
+   line-height: 1.3;
+   font-weight: 400;
+   font-size: 17px;
+}
+.middle-part{
+    margin-top: 85px;
+    margin-left: 130px;
+}
+.footer-menu,.footer-link,li{
+    display: block;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: white;
+}
+
+.menu  li a:hover {
+    background-color: #f0f0f0; 
+}
+.middle-about{
+    color: white;
+    width: 156px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 24;
+}
+.footer-detail{
+    gap: 50px;
+}
+.right-part{
+    margin-top: 80px;
+    margin-right: 45px;
+}
+.right-title{
+    margin-bottom: 30px;
+    font-size: 23px;
+    color: white;
+
 }
